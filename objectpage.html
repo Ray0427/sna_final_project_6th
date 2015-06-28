@@ -49,21 +49,21 @@
 				</div>
 				<div class="btn-group" id="headerlinksright">
 
-						<a href="create.html" title="create"><div class="orange ui buttons">
-							<div class="ui button">建立食記</div>
+					<a href="create.html" title="create"><div class="orange ui buttons">
+						<div class="ui button">建立食記</div>
 
-						</div></a>
+					</div></a>
 
 
-						<a title="Login/Register" id="LogIn"><div class="orange ui buttons">
-							<div class="ui button">Login</div>
+					<a title="Login/Register" id="LogIn"><div class="orange ui buttons">
+						<div class="ui button">Login</div>
 
-						</div></a>
-						<a  title="Login/Register" id="LogOut"><div class="orange ui buttons">
-							<div class="ui button">Logout</div>
+					</div></a>
+					<a  title="Login/Register" id="LogOut"><div class="orange ui buttons">
+						<div class="ui button">Logout</div>
 
-						</div></a>
-						<a id="manage"></a>
+					</div></a>
+					<a id="manage"></a>
 					<!-- </div> -->
 				</div>
 			</div>
@@ -125,149 +125,157 @@
 			</div>
 
 			<!-- <div id="content"> -->
-				<nav class="sidebar"> 
-					<!-- This adds a sidebar with 1 searchbox,2 menusets, each with 4 links -->
-					<div class="ui search">
-						<div class="ui icon input">
-							<input class="prompt" type="text" placeholder="search">
-							<i class="search icon"></i>
-						</div>
-						<div class="results"></div>
+			<nav class="sidebar"> 
+				<!-- This adds a sidebar with 1 searchbox,2 menusets, each with 4 links -->
+				<div class="ui search">
+					<div class="ui icon input">
+						<input class="prompt" type="text" placeholder="search">
+						<i class="search icon"></i>
 					</div>
-					<div id="menubar">
-						<div class="menu">
-							<ul>
-								<!-- List of links under menuset 1 -->
-								<li><div class="ui orange button"><a href="search.html?foodtype=japanese" title="Link">日式料理</a></div></li>
-								<li><div class="ui orange button"><a href="search.html?foodtype=american" title="Link">美式料理</a></div></li>
-								<li><div class="ui orange button"><a href="search.html?foodtype=italian" title="italian">義式料理</a></div></li>
-								<li><div class="ui orange button"><a href="search.html?foodtype=european" title="Link">歐式料理</a></div></li>
-								<li><div class="ui orange button"><a href="search.html?foodtype=taiwanese" title="Link">台式料理</a></div></li>
-								<li><div class="ui orange button"><a href="search.html?foodtype=chinese" title="Link">中式料理</a></div></li>
-								<li><div class="ui orange button"><a href="search.html?foodtype=breakfast" title="Link">早餐</a></div></li>
-								<li><div class="ui orange button"><a href="search.html?foodtype=brunch" title="Link">早午餐</a></div></li>
-								<li><div class="ui orange button"><a href="search.html?foodtype=afternoontea" title="Link">下午茶</a></div></li>
-							</ul>
-						</div>
+					<div class="results"></div>
+				</div>
+				<div id="menubar">
+					<div class="menu">
+						<ul>
+							<!-- List of links under menuset 1 -->
+							<li><div class="ui orange button"><a href="search.html?foodtype=japanese" title="Link">日式料理</a></div></li>
+							<li><div class="ui orange button"><a href="search.html?foodtype=american" title="Link">美式料理</a></div></li>
+							<li><div class="ui orange button"><a href="search.html?foodtype=italian" title="italian">義式料理</a></div></li>
+							<li><div class="ui orange button"><a href="search.html?foodtype=european" title="Link">歐式料理</a></div></li>
+							<li><div class="ui orange button"><a href="search.html?foodtype=taiwanese" title="Link">台式料理</a></div></li>
+							<li><div class="ui orange button"><a href="search.html?foodtype=chinese" title="Link">中式料理</a></div></li>
+							<li><div class="ui orange button"><a href="search.html?foodtype=breakfast" title="Link">早餐</a></div></li>
+							<li><div class="ui orange button"><a href="search.html?foodtype=brunch" title="Link">早午餐</a></div></li>
+							<li><div class="ui orange button"><a href="search.html?foodtype=afternoontea" title="Link">下午茶</a></div></li>
+						</ul>
 					</div>
+				</div>
 
-					<div>
+				<div>
 
-					</div> 
-				</nav>
-				<div class="col-sm-6 col-md-9" id="page">
+				</div> 
+			</nav>
+			<div class="col-sm-6 col-md-9" id="page">
+				<h1 class="texttitle" id="title"></h1>
 
+				<div class="resphoto">
+					<a href="" title="Link"><img class="img-rounded" id="pic-select"src="" ></a>
+				</div>
+				<div class="resdata" >
+					<li class="introduce">評等：<p id="star_rate"></p></li>
+					<li class="introduce">餐廳：<p id="res_name"></p></li>
+					<li class="introduce">電話：<p id="phone"></p></li>
+					<li class="introduce">營業時間：<p id="worktime"></p></li>
+					<li class="introduce">地址：<p id="address"></p></li>
 
+					<li class="introduce">餐廳：<p id="name"></p></li>
+					<li class="introduce">電話：<p id="telephone"></p></li>
+					<li class="introduce">營業時間：<p id="worktime"></p></li>
+					<li class="introduce">地址：<p id="address"></p></li>
 
-					<h1 class="texttitle" id="title"></h1>
+				</div>
+				<div class="album">
+					<hr class="tsoo">
+					<h3>菜單</h3>
+					<div class="col-sm-6 col-md-6">
+						<div class="thumbnail">
+							<img src="img/B.jpg" alt="...">
+							<div class="caption">
+								<h3>煙燻大熱狗堡 $140</h3>
+								<p>此道麵包用的是全麥麵包，感覺特有嚼勁，而且紮實的塞進了新鮮蔬菜與
 
-					<div class="resphoto">
-						<a href="" title="Link"><img class="img-rounded" id="pic-select"src="" ></a>
-					</div>
-					<div class="resdata" >
-						<li class="introduce">評等：<p id="star_rate"></p></li>
-						<li class="introduce">餐廳：<p id="res_name"></p></li>
-						<li class="introduce">電話：<p id="phone"></p></li>
-						<li class="introduce">營業時間：<p id="worktime"></p></li>
-						<li class="introduce">地址：<p id="address"></p></li>
+									酸黃瓜醬，搭配上彈性十足的煙燻熱狗，Q脆的口感完全不亞於IKEA賣的水煮熱狗，ㄉㄨㄞ ㄉㄨㄞ
 
-						<li class="introduce">餐廳：<p id="name"></p></li>
-						<li class="introduce">電話：<p id="telephone"></p></li>
-						<li class="introduce">營業時間：<p id="worktime"></p></li>
-						<li class="introduce">地址：<p id="address"></p></li>
+									的律動彷彿羚羊在嘴中奔馳。
+								</p>
 
-					</div>
-					<div class="album">
-						<hr class="tsoo">
-						<h3>菜單</h3>
-						<div class="col-sm-6 col-md-6">
-							<div class="thumbnail">
-								<img src="img/B.jpg" alt="...">
-								<div class="caption">
-									<h3>煙燻大熱狗堡 $140</h3>
-									<p>此道麵包用的是全麥麵包，感覺特有嚼勁，而且紮實的塞進了新鮮蔬菜與
-
-										酸黃瓜醬，搭配上彈性十足的煙燻熱狗，Q脆的口感完全不亞於IKEA賣的水煮熱狗，ㄉㄨㄞ ㄉㄨㄞ
-
-										的律動彷彿羚羊在嘴中奔馳。
-									</p>
-
-								</div>
 							</div>
 						</div>
-						<div id="orange ui buttons"></div>
-						<button class="ui button">提供菜單</button>
-						<p>
-						</p>
 					</div>
-					<div class="foodcontext">
-						<hr class="tsoo">
-						<h3>食記</h3>
-
-						
-
-						<p id="maintext">
-
-						</p>
-						<div class="fb-comments" data-href="http://rob0215.github.io/sna_final_project_6th/objectpage.html" data-width="400px" data-numposts="5" data-colorscheme="light" ></div>
-						<div>
-
-
-						</div>
-					</div>	
-
+					<div id="orange ui buttons"></div>
+					<button class="ui button">提供菜單</button>
+					<p>
+					</p>
 				</div>
-				<div class="col-sm-6 col-md-3" id="ads">
-					<div class="thumbnail" >
-						<img src="img/金鰭.jpg" alt="...">
-						<div class="caption">
-							<h3>金鰭日式料理</h3>
-							<p>這一頓下來四個人吃得飽飽飽才八百多塊，每道餐點味道也都還不錯，
+				<div class="foodcontext">
+					<hr class="tsoo">
+					<h3>食記</h3>
 
-								而最大的感觸是...為什麼C/P值這麼高的日本料理店離我的活動範圍那麼遠呀...
 
-								沒想大政大美食的品質很不賴，下次黛西一定還要再來金鰭大快朵頤一番！！！
-							</p>
 
-						</div>
+					<p id="maintext">
+
+					</p>
+					<div class="fb-comments" data-href="http://rob0215.github.io/sna_final_project_6th/objectpage.html" data-width="400px" data-numposts="5" data-colorscheme="light" ></div>
+					<div>
+
+
 					</div>
-				<!-- </div> -->
-				<!-- <div class="col-sm-6 col-md-3"> -->
-					<div class="thumbnail">
-						<img src="img/B&O.jpg" alt="...">
-						<div class="caption">
-							<h3>B&O美式餐廳</h3>
-							<p>其實閃光和我去過的美式餐廳不多
+				</div>	
 
-								但我覺得B&O的漢堡都有一定的水準
+			</div>
+			<div class="col-sm-6 col-md-3" id="ads">
+				<div class="thumbnail" >
+					<img src="img/金鰭.jpg" alt="...">
+					<div class="caption">
+						<h3>金鰭日式料理</h3>
+						<p>這一頓下來四個人吃得飽飽飽才八百多塊，每道餐點味道也都還不錯，
 
-								比一般桌遊店的飲食要好太多
+							而最大的感觸是...為什麼C/P值這麼高的日本料理店離我的活動範圍那麼遠呀...
 
-								店內佈置整齊明亮坐起來就很舒服
+							沒想大政大美食的品質很不賴，下次黛西一定還要再來金鰭大快朵頤一番！！！
+						</p>
 
-								而地下室約可容納二十幾個人
-
-								算是個不錯辦活動或是大批人馬聚會的好地方
-							</p>
-
-						</div>
-					</div>
-				<!-- </div> -->
-				<!-- <div class="col-sm-6 col-md-3"> -->
-					<div class="thumbnail">
-						<img src="img/肉圓.jpg" alt="...">
-						<div class="caption">
-							<h3>5路清蒸蝦仁肉圓</h3>
-							<p>不規則形狀的外皮軟嫩又保有口感，每粒肉圓的蝦仁數量，就是擺在外頭的那一個，內餡完全是豬肉餡，不過調味也滿不賴的，好吃！
-							</p>
-
-						</div>
 					</div>
 				</div>
-			<!-- </div> -->
-			<footer> 
+				<!-- </div> -->
+				<!-- <div class="col-sm-6 col-md-3"> -->
+				<div class="thumbnail">
+					<img src="img/B&O.jpg" alt="...">
+					<div class="caption">
+						<h3>B&O美式餐廳</h3>
+						<p>其實閃光和我去過的美式餐廳不多
 
-				
-			</footer>
-		</body>
-		</html>
+							但我覺得B&O的漢堡都有一定的水準
+
+							比一般桌遊店的飲食要好太多
+
+							店內佈置整齊明亮坐起來就很舒服
+
+							而地下室約可容納二十幾個人
+
+							算是個不錯辦活動或是大批人馬聚會的好地方
+						</p>
+
+					</div>
+				</div>
+				<!-- </div> -->
+				<!-- <div class="col-sm-6 col-md-3"> -->
+				<div class="thumbnail">
+					<img src="img/肉圓.jpg" alt="...">
+					<div class="caption">
+						<h3>5路清蒸蝦仁肉圓</h3>
+						<p>不規則形狀的外皮軟嫩又保有口感，每粒肉圓的蝦仁數量，就是擺在外頭的那一個，內餡完全是豬肉餡，不過調味也滿不賴的，好吃！
+						</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer> 
+			<div  class="fb-like"
+			data-share="true"
+			data-width="450"
+			data-show-faces="true"></div>
+			<div> <p></p></div>
+			<div> <p></p> </div>
+			<div class="footerlinks">
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+			</div>
+
+		</footer>
+	</div>
+</body>
+</html>
