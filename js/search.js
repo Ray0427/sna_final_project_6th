@@ -65,7 +65,7 @@ query.find({
      // var picObj=document.getElementById("pic-select"+i);
      // picObj.src=object.get('pic').url();
      // document.getElementById('maintext'+i).innerText=object.get('maintext');
-     $('<div class="category-item"><a href="objectpage.html?id='+object.id+'" title="Link"><img src="'+object.get('pic').url()+'" id="pic-select"></a>      <div class = "category-detail"><h2><a href="objectpage.html?id='+object.get('objectId')+'" title="Link">'+object.get('title')+'</a></h2><p>'+object.get('maintext')+'</p>            </div></div>').appendTo('#tab1');
+     $('<div class="category-item"><a href="objectpage.html?id='+object.id+'" title="Link"><img src="'+object.get('pic').url()+'" id="pic-select"></a>      <div class = "category-detail"><h2><a href="objectpage.html?id='+object.id+'" title="Link">'+object.get('title')+'</a></h2><p>'+object.get('maintext')+'</p>            </div></div>').appendTo('#tab1');
   console.log(object.get('objectId'))
 
    }
